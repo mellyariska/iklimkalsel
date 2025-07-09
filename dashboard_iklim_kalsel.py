@@ -6,7 +6,7 @@ import seaborn as sns
 # =====================
 # BACA DATA
 # =====================
-data = pd.read_excel("Data_Tahunan_SM_SYAMSIR_ALAM_1981_2020")
+data = pd.read_excel("Data_Tahunan_SM_SYAMSIR_ALAM_1981_2020.xlsx")
 
 # Rename agar lebih mudah
 data = data.rename(columns={
